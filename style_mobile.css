@@ -1,0 +1,39 @@
+@media only screen and (max-width: 768px) {
+    /* For mobiles: */
+    .col-m-1 {width: 20%;}
+    .col-m-2 {width: 40%;}
+    .col-m-3 {width: 60%;}
+    .col-m-4 {width: 80%;}
+    .col-m-5 {width: 100%;}
+    #text-content {
+        top:20%;
+        padding-left:30px;
+        padding-right:10%;
+        color: #000;
+    }
+    #text-content > p {
+        padding-top: 25px;
+    }
+    #banner {
+        height:300px;
+    }
+    #instruction > h2 {
+        font-weight: bold;font-family: 'Bitter', serif;font-size: 35pt;
+    }
+    #instruction {
+        top:20%;
+        padding-left:30px;
+        padding-right:10%;
+        color: #000;
+    }
+    #instruction > p {
+        padding-top: 25px;
+    }
+    #nav {
+        background-color: #5e7282;
+
+    }
+    li > a {
+        color: #fff;
+    }
+}

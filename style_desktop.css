@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+[class*="col-"] {
+    width: 100%;
+    float:left;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+@media only screen and (min-width: 992px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+    #brand {
+        margin-left: 90px;
+    }
+    #help {
+        margin-right: 90px;
+    }
+    #banner {
+        background: url(./img/lodging.png);
+        height:500px;
+    }
+    #location {
+        background-color: #e3e1e1;
+    }
+    #footer {
+        background-color: #e6e6e6;
+    }
+    #text-content {
+        top: 150px;
+        padding-left: 70px;
+        color: #fff;
+    }
+    #instruction > h2 {
+        font-weight: 200;
+        font-family: 'Roboto', sans-serif;
+    }
+    #instruction > p {
+        font-weight: 200;
+        font-family: 'Roboto', sans-serif;
+        font-size:10pt
+    }
+    li > a {
+        color: #898f8b;
+    }
+    hr {
+        display: none;
+    }
+    #nav {
+        background-color: #fff;
+    }
+}
+
+#nav {
+    height: 58px;
+    top:0;
+    left:0;
+    right:0;
+    position: fixed;
+    z-index: 100;
+}
+li {
+    list-style-type: none;
+    display: block;
+}
+li > a {
+    
+    text-decoration: none;
+    font-weight: 800;
+    
+    font-size: 10pt;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+li > a:hover {          
+    background-color: #898f8b;
+    color:#fff;
+}
+#brand, #browse, #signup, #login, #help {
+    display: block;
+    text-align: center; 
+    line-height:58px;
+    
+}
+.left-nav {
+    float: left;
+}
+.right-nav {
+    float:right;
+}
+
+#banner {
+    margin-top: 58px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#text-content {
+    position: absolute;
+}
+#location {
+    height:auto;
+    /* height: 1550px; */
+    /* background-color: #e3e1e1; */
+    
+}
+
+.cityimg {
+    display:block; 
+    margin:auto;   
+}
+#mexico,#tokyo,#ny,#paris,#invite {
+    padding-bottom: 40px;
+}
+#location>#instruction {
+    /* line-height: 30px; */
+    padding: 40px 30px;   
+}
+
+
+
+/* -------footer------- */
+
+#footer {
+    height: auto;
+    /* background-color: #e6e6e6; */
+    
+}
+
+#footer > div > a {
+    text-decoration: none;
+    line-height: 40px;
+    color: #8bbff7;
+}
+#footer > div > b {
+    font-weight: bold;
+    font-family: 'Bitter', serif;
+    line-height: 35px;
+}
+#footer > div > p,#footer > div > a {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10pt;
+}
+.FooterText {
+    padding: 30px 30px;
+}

@@ -1,0 +1,39 @@
+@media only screen and (min-width: 769px) and (max-width: 991px) {
+    /* For tablets: */
+    .col-s-1 {width: 12.5%;}
+    .col-s-2 {width: 25%;}
+    .col-s-3 {width: 37.5%;}
+    .col-s-4 {width: 50%;}
+    .col-s-5 {width: 62.5%;}
+    .col-s-6 {width: 75%;}
+    .col-s-7 {width: 87.5%;}
+    .col-s-8 {width: 100%;}
+    #nav {
+        background-color: #5e7282;
+
+    }
+    li > a {
+        color: #fff;
+    }
+    #banner {
+        height:300px;
+    }
+    #instruction > h2 {
+        font-weight: bold;font-family: 'Bitter', serif;font-size: 35pt;
+    }
+    #text-content {
+        top:20%;
+        padding-left:30px;
+        padding-right:10%;
+        color: #000;
+    }
+    #instruction {
+        top:20%;
+        padding-left:10%;
+        padding-right:10%;
+        color: #000;
+    }
+    #instruction > p {
+        padding-top: 25px;
+    }
+}
